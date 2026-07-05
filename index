@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Alessandro Stazzone — Digital Business Profile</title>
+https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap
+<style>
+  :root {
+    --bg: #ffffff;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --line: #e5e5e5;
+    --soft: #f6f6f6;
+    --accent: #6b3fa0; /* viola industrial */
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  header {
+    border-bottom: 1px solid var(--line);
+    padding: 60px 8% 40px;
+  }
+  .eyebrow {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  h1 .accent { color: var(--accent); }
+  .subtitle {
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: 720px;
+    font-weight: 400;
+  }
+  main { padding: 60px 8%; }
+  section { margin-bottom: 60px; }
+  h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--ink);
+    display: inline-block;
+  }
+  h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+    color: var(--ink);
+  }
+  p { margin-bottom: 12px; font-size: 0.98rem; color: #333; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+  }
+  .card {
+    background: var(--soft);
+    padding: 26px;
+    border-left: 3px solid var(--accent);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  }
+  .card .tag {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+    display: block;
+  }
+  .highlight {
+    background: var(--ink);
+    color: #fff;
+    padding: 40px;
+    margin: 40px 0;
+  }
+  .highlight h2 {
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .highlight p { color: #dcdcdc; }
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 40px 8%;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
+  .footer-links a {
+    color: var(--ink);
+    text-decoration: none;
+    margin: 0 12px;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 2px;
+  }
+  .footer-links a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Digital Business · Omnichannel · E-commerce</div>
+  <h1>Alessandro <span class="accent">Stazzone</span></h1>
+  <p class="subtitle">
+    Digital Business Specialist nell'ecosistema omnichannel di Valentino — un ponte tra Business, Digital e Technology. Trasformo esigenze di business e customer experience in soluzioni concrete, dal disegno al go-live fino al miglioramento continuo.
+  </p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Aree di ownership</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="tag">01 — Customer</span>
+        <h3>Customer Knowledge & CRM</h3>
+        <p>Cliente unico cross-canale, single customer view, evoluzione verso Salesforce.</p>
+      </div>
+      <div class="card">
+        <span class="tag">02 — Order</span>
+        <h3>Order & Fulfillment Experience</h3>
+        <p>Disponibilità, sourcing, resi e cambi in ottica omnichannel con stock unico.</p>
+      </div>
+      <div class="card">
+        <span class="tag">03 — Storefront</span>
+        <h3>Digital Storefront</h3>
+        <p>Valentino.com: navigazione, search & discovery, contenuti shoppable, conversion.</p>
+      </div>
+      <div class="card">
+        <span class="tag">04 — Content</span>
+        <h3>Product Content & Localization</h3>
+        <p>Racconto di prodotto e brand su tutti i touchpoint, scaling multi-mercato.</p>
+      </div>
+      <div class="card">
+        <span class="tag">05 — Payments</span>
+        <h3>Payments, Checkout & Trust</h3>
+        <p>Conversion e conformità nel momento più critico della customer journey.</p>
+      </div>
+      <div class="card">
+        <span class="tag">06 — Omni</span>
+        <h3>Omnichannel Services & Client-facing</h3>
+        <p>Servizi seamless online↔boutique, Consumer App, Retail Toolkit.</p>
+      </div>
+      <div class="card">
+        <span class="tag">07 — Analytics</span>
+        <h3>Digital Performance & VoC</h3>
+        <p>KPI di business, comportamenti utente, feedback cliente, executive reporting.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlight">
+    <h2>Cross-functional PM & Integration</h2>
+    <p>
+      Il layer trasversale che tiene insieme l'intero ecosistema digitale. Governance end-to-end, solution design cross-dominio, PMO multi-stream, orchestrazione di partner strategici e gestione di change & release.
+    </p>
+    <p style="margin-top:16px; font-family:'Oswald',sans-serif; letter-spacing:0.15em; text-transform:uppercase; color:#bfa6dc;">
+      Il moltiplicatore di valore del profilo.
+    </p>
+  </section>
+
+  <section>
+    <h2>Come opero</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="tag">Modalità A</span>
+        <h3>Project & Design</h3>
+        <p>Feasibility, solution design, project management di iniziative strategiche end-to-end.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Modalità B</span>
+        <h3>Operation & Continuous Improvement</h3>
+        <p>Presidio della continuità, evoluzione del business as usual, coordinamento AMS e partner.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    :alessandro.stazzone@gmail.com">Click for my email</a>
+    azzone-3575b0b6/" target="_blank">Click for my LinkedIn</a>
+  </div>
+  <p style="margin-top:20px;">© 2026 Alessandro Stazzone</p>
+</footer>
+
+</body>
+</html>
